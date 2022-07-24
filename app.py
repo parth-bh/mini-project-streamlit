@@ -2,10 +2,10 @@ import streamlit as st
 
 
 def main():
-  st.title("To check the given number is Even or Odd")
+  st.title("Even or Odd")
   html_temp = """
-  <div style="background-color:White;padding:10px">
-  <h2 style="color:Green;text-align:center;">Streamlit Even / Odd App <h2>
+  <div style="background-color:tomato;padding:10px">
+  <h2 style="color:white;text-align:center;">Streamlit Even / Odd App <h2>
   </div>
   """
   st.markdown(html_temp,unsafe_allow_html=True)
